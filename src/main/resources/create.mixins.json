@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "priority": 1100,
+  "package": "com.simibubi.create.foundation.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "create.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "CancelTileEntityRenderMixin",
+    "EntityContraptionInteractionMixin",
+    "FixNormalScalingMixin",
+    "FogColorTrackerMixin",
+    "HeavyBootsOnPlayerMixin",
+    "LightUpdateMixin",
+    "ModelDataRefreshMixin",
+    "NetworkLightUpdateMixin",
+    "RenderHooksMixin",
+    "ShaderCloseMixin",
+    "StoreProjectionMatrixMixin",
+    "TileRemoveMixin",
+    "TileWorldHookMixin",
+    "WindowResizeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
